@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>ILP_hja81_group_c</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ManagerController</display-name>
+    <servlet-name>ManagerController</servlet-name>
+    <servlet-class>Control.ManagerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagerController</servlet-name>
+    <url-pattern>/ManagerController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UnderWriterController</display-name>
+    <servlet-name>UnderWriterController</servlet-name>
+    <servlet-class>Control.UnderWriterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UnderWriterController</servlet-name>
+    <url-pattern>/UnderWriterController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BrokerController</display-name>
+    <servlet-name>BrokerController</servlet-name>
+    <servlet-class>Broker.BrokerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrokerController</servlet-name>
+    <url-pattern>/BrokerController</url-pattern>
+  </servlet-mapping>
+</web-app>
